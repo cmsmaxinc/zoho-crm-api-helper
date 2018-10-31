@@ -1,9 +1,8 @@
 <?php
 
-namespace Cmsmax\ZohoCrmApiHelper\Providers;
+namespace Cmsmax\ZohoCrmApiHelper;
 
 use Cmsmax\ZohoCrmApiHelper\Models\ZohoToken;
-use Cmsmax\ZohoCrmApiHelper\ZohoCrmApiClientHelper;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
