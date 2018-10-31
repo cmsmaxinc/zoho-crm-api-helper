@@ -1,0 +1,22 @@
+{
+    "name": "cmsmax/zoho-crm-api-helper",
+    "description": "Some helpful wrapper classes that make it easier to work with the API",
+    "type": "library",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cmsmaxinc/zoho-crm-api.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "David Maksimov",
+            "email": "dmaksi@gmail.com"
+        }
+    ],
+    "require": {
+        "cmsmax/zoho-crm-api": "dev-master",
+        "laravel/framework": "~5.5.0|~5.6.0|~5.7.0"
+    }
+}
