@@ -57,4 +57,9 @@ class ZohoCrmApiClientHelper
         $newToken = $this->client->refreshToken($this->refreshToken->value);
         $this->accessToken->updateAccessToken($newToken);
     }
+
+    public function authenticated()
+    {
+        return ! empty($this->accessToken->value);
+    }
 }
