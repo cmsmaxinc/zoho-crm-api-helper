@@ -10,7 +10,7 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../database/migrations/' => database_path('migrations')
+            __DIR__.'/database/migrations/' => database_path('migrations')
         ], 'migrations');
     }
 
