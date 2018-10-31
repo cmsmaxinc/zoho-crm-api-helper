@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmsmax\ZohoCrmApiHelper\Facades;
+namespace Cmsmax\ZohoCrmApiHelper;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
