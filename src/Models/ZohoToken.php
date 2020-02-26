@@ -39,7 +39,7 @@ class ZohoToken extends Model
     public function updateAccessToken($newToken)
     {
         $this->value = $newToken->access_token;
-        $this->expires_at = now()->addSeconds($newToken->expires_in_sec);
+        $this->expires_at = now()->addSeconds($newToken->expires_in);
         $this->save();
     }
 
